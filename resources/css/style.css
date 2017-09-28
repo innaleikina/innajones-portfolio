@@ -33,7 +33,7 @@ body {
   /*border: 1px red solid;*/
   justify-content: center;
   padding-top: 1rem;
-  background-image: url("../images/watercolor.jpg");
+  background-image: url("../images/watercolor_small.jpg");
   background-position: bottom;
   height:100%;
   padding-bottom: 1rem;
@@ -279,10 +279,15 @@ margin-bottom: .2rem;
 }
 
 /*____________________JUMBOTRON_______________*/
+
+.secret {
+  height:40rem;
+}
+
 .secret-content{
-  height: 25rem;
+
   width:100%;
-  background-image: url("../images/watercolor.jpg");
+  background-image: url("../images/watercolor_small.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
