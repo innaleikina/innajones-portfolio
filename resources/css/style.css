@@ -1,0 +1,348 @@
+html{
+  font-size: 16px;
+}
+
+body {
+
+}
+
+.container {
+  display: flex;
+}
+
+
+.alt-grid [class*="col-"] {
+  padding-left:0;padding-right:0
+}
+
+.alt-grid .row {
+  margin-left:0;
+  margin-right:0;
+}
+
+/* container adjusted */
+.alt-grid .container .container-fluid {
+  width:100%;
+  max-width:none;
+  padding:0;
+}
+
+
+/*___________________BUTTONS MENU_____________________*/
+.all-small-boxes {
+  /*border: 1px red solid;*/
+  justify-content: center;
+  padding-top: 1rem;
+  background-image: url("../images/watercolor.jpg");
+  background-position: bottom;
+  height:100%;
+  padding-bottom: 1rem;
+  opacity: .8;
+}
+
+
+.small-box {
+  width:4.5rem;
+  height:4.2rem;
+  /*border:1px red solid;*/
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: rgb(245,250,247);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px #D1D1D1;
+  box-shadow:inset 0px 1px 0px rgba(255,255,255,.3);
+  border-radius: 18px;
+}
+
+  .colored-box{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 18px;
+  font-family: "Amatic SC";
+  font-size: 1.2rem;
+  letter-spacing: .08rem;
+  text-shadow: 0px  -1px 0px rgba(0,0,0,.4);
+  -webkit-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
+  -moz-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
+  box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
+  -webkit-box-shadow: 0px 2px 0px #b2b4b7, 0px 1px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(186, 186, 186,.3), inset 0px 0px 1px rgba(186, 186, 186,.5);
+  -moz-box-shadow: 0px 2px 0px #b2b4b7, 0px 1px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(186, 186, 186, .3), inset 0px 0px 1px rgba(186, 186, 186,.5);
+  box-shadow: 0px 2px 0px #b2b4b7, 0px 1px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(186, 186, 186,.3), inset 0px 0px 1px rgba(186, 186, 186,.5);
+}
+
+.yellow {
+background-color: rgb(240,224,37);
+}
+
+
+/*__________________ORANGE______________*/
+.orange {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcaf79+0,fe994f+44,fe994f+100 */
+background: rgb(254,153,79); /* Old browsers */
+``background: -moz-linear-gradient(top, rgb(249,185,142) 0%, rgb(249,162,104) 44%, rgb(254,153,79) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(249,185,142) 0%,rgb(249,162,104) 44%,rgb(254,153,79) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(249,185,142) 0%,rgb(249,162,104) 44%,rgb(254,153,79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+border: 1px solid rgb(229, 135, 68);``
+}
+
+.orange:hover{
+  background: rgb(247,182,79); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(248, 214, 159) 0%, rgb(247,182,79) 44%, rgb(254,153,79) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(248, 214, 159) 0%,rgb(247,182,79) 44%,rgb(254,153,79) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(248, 214, 159) 0%,rgb(247,182,79) 44%,rgb(254,153,79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+  border: 1px solid rgb(211, 136, 82);
+}
+
+.orange:active {
+  background: rgb(254,153,79);
+}
+
+/*_______________________BLUE_________________*/
+.blue {
+  background-color: rgb(79,199,254);
+  border: 1px solid #2d6898;
+  background: -moz-linear-gradient(top, rgb(74,231,280) 0%, rgb(74,208,278) 44%, rgb(79,189,254) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(74,231,280) 0%,rgb(74,208,278) 44%,rgb(79,189,254) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(74,231,280) 0%,rgb(74,208,278) 44%,rgb(79,189,254) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+  border: 1px solid rgb(42, 188, 217);
+}
+
+
+.blue:hover {
+    background: rgb(79,199,254); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(133, 240, 248) 0%, rgb(65, 222, 230) 44%, rgb(79,199,254) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(133, 240, 248) 0%,rgb(65, 222, 230) 44%,rgb(79,199,254) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(133, 240, 248) 0%,rgb(65, 222, 230) 44%,rgb(79,199,254) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+  border: 1px solid rgb(33, 169, 196);
+}
+
+
+.blue:active {
+  background: rgb(79,199,254);
+}
+
+/*________________________RED_________________*/
+.red {
+  background-color: rgb(254,87,79);
+  border: 1px solid #2d6898;
+  background: -moz-linear-gradient(top, rgb(251, 144, 141) 0%, rgb(254,96,104) 44%, rgb(254,77,79) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(251, 144, 141) 0%,rgb(254,96,104) 44%,rgb(254,77,79) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(251, 144, 141) 0%,rgb(254,96,104) 44%,rgb(254,77,79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+  border: 1px solid rgb(238, 80, 62);
+}
+
+.red:hover{
+background-color: rgb(254,87,79);
+background: -moz-linear-gradient(top, rgb(246, 178, 176) 0%, rgb(248, 122, 118) 44%, rgb(254,87,79) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(246, 178, 176) 0%,rgb(248, 122, 118) 44%,rgb(254,87,79) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(246, 178, 176) 0%,rgb(248, 122, 118) 44%,rgb(254,87,79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+border: 1px solid rgb(221, 33, 12);
+}
+
+.red:active{
+  background: rgb(254,87,79);
+}
+
+/*________________________DARK_GRAY________________*/
+
+.dark-gray {
+  background-color: rgb(57,57,57);
+  border: 1px solid #2d6898;
+  background: -moz-linear-gradient(top, rgb(142, 142, 142) 0%, rgb(112, 112, 112) 44%, rgb(57,47,57) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(142, 142, 142) 0%,rgb(112, 112, 112) 44%,rgb(57,47,57) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(142, 142, 142) 0%,rgb(112, 112, 112) 44%,rgb(57,47,57) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+  border: 1px solid rgb(43, 43, 43);
+}
+
+.dark-gray:hover{
+  background-color: rgb(57,57,57);
+  background: -moz-linear-gradient(top, rgb(191, 190, 190) 0%, rgb(158, 158, 158) 44%, rgb(57,57,57) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(191, 190, 190) 0%,rgb(158, 158, 158) 44%,rgb(57,57,57) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(191, 190, 190) 0%,rgb(158, 158, 158) 44%,rgb(57,57,57) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+  border: 1px solid rgb(33,33,33);
+  }
+
+
+.dark-gray:active {
+  background: rgb(57,57,57);
+  }
+
+/*_______________________GRAY______________*/
+.gray {
+  background-color: rgb(188,190,192);
+}
+
+
+
+/*____________________________________________________*/
+/* ______________MENU_MOBILE_______________*/
+@media only screen and (max-width: 768px){
+.gray {
+display:none;
+}
+
+.small-box {
+  margin-left: .3rem;
+  margin-right: .3rem;
+  height:3.9rem;
+  width:3.9rem;
+  font-size: 1.2rem;
+}
+
+.yellow {
+  display: none;
+}
+
+}
+
+/*________________________NAME_________________*/
+
+.name {
+  opacity: .8;
+  height: 5.5rem;
+  background-color: rgb(57,57,57);
+  color: rgb(245,250,247);
+
+  /*border: 1px red solid;*/
+  font-family: "Amatic SC";
+  font-weight: 200;
+}
+
+.name .name-skills {
+  justify-content: center;
+  width:100%;
+  align-items: center;
+  /*border: 1px red solid;*/
+}
+
+.inna-jones{
+  font-size: 4.6rem;
+  text-align: center;
+  /*border:1px red solid;*/
+/*  width:100%;*/
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-shadow: 0px  -5px 0px rgba(0,0,0,1);
+}
+
+.skills-list{
+/*border:1px red solid;*/
+margin-top: .3rem;
+font-size: 1.2rem;
+letter-spacing: .03rem;
+}
+
+.skills-list li {
+margin-bottom: .2rem;
+}
+
+@media only screen and (max-width: 768px){
+  .inna-jones{
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px){
+.name{
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+  .inna-jones{
+    font-size:3.5rem;
+    text-align: left;
+    padding-right: .3rem;
+    padding-left: 1.5rem;
+
+  }
+
+  .skills-list{
+    padding-right: 1rem;
+    font-size: 1rem;
+    margin-top: .2rem;
+  }
+}
+
+.skills-list {
+  line-height: 1.4rem;
+/*  border:1px red solid;*/
+}
+
+/*____________________JUMBOTRON_______________*/
+.secret-content{
+  height: 25rem;
+  width:100%;
+  background-image: url("../images/watercolor.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  opacity:.6;
+
+}
+
+.game-box{
+  width:6rem;
+  height:6rem;
+  background-color:rgb(57,57,57);
+  margin-left: .8rem;
+  margin-right: .8rem;
+  margin-top:1.3rem;
+  margin-bottom: .6rem;
+}
+
+.row{
+  flex-direction: column;
+}
+
+.all-game-boxes {
+  justify-content: center;
+}
+
+.directions {
+  height:21.2rem;
+  width:15rem;
+  margin-top:1rem;
+  margin-right: 2.3rem;
+}
+
+.match-game{
+  font-family: "Amatic SC";
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: .5rem;
+  font-weight: bold;
+  color:rgb(254,153,79);
+}
+
+.match-game-rules{
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  margin-top:1.6rem;
+  margin-bottom: .5rem;
+  color: rgb(79,199,254);
+  /*text-shadow: 0px 0.5px .5px rgb(57,57,57);*/
+
+}
+
+.match-game-text{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: .9rem;
+  padding-bottom: .8rem;
+  line-height: 1.3rem;
+}
