@@ -282,7 +282,7 @@ margin-bottom: .2rem;
 
 
 .secret-content{
-  height:40rem;
+  height:70rem;
   width:100%;
   background-image: url("../images/watercolor_small.jpg");
   background-repeat: no-repeat;
@@ -357,6 +357,11 @@ margin-bottom: .2rem;
   margin-bottom: .6rem;
   display: flex;
   margin-left: 1.6rem;
+}
 
-
+/*______________________FOOTER_________________*/
+footer {
+  height:8rem;
+  background-color:rgb(57,57,57);
+  opacity: .8;
 }
