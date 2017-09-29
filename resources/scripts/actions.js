@@ -54,7 +54,7 @@ return tiles_flipped == memory_array.length ;
 }
 
 function gameIsOver() {
-  alert("Board cleared... generating new board");
+  alert("You won! Time to check out my portfolio!");
   document.getElementById('memory_board').innerHTML = "";
   newBoard();
 }

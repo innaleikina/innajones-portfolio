@@ -289,6 +289,7 @@ margin-bottom: .2rem;
   background-position: top;
   background-size: cover;
   opacity:.6;
+  justify-content: center;
 }
 
 
@@ -297,9 +298,7 @@ margin-bottom: .2rem;
   height:21.2rem;
   width:15rem;
   margin-top:5.4rem;
-  margin-right: 2.6rem;
   flex-direction: column;
-  margin-left: 4rem;
 }
 
 .match-game{
@@ -339,6 +338,7 @@ margin-bottom: .2rem;
  height: 440px;
  margin-top: 4rem;
  opacity: .5;
+ justify-content: center;
 }
 
 #memory_board div {
