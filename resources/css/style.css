@@ -280,44 +280,26 @@ margin-bottom: .2rem;
 
 /*____________________JUMBOTRON_______________*/
 
-.secret {
-  height:40rem;
-}
 
 .secret-content{
-
+  height:40rem;
   width:100%;
   background-image: url("../images/watercolor_small.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   opacity:.6;
-
 }
 
-.game-box{
-  width:6rem;
-  height:6rem;
-  background-color:rgb(57,57,57);
-  margin-left: .8rem;
-  margin-right: .8rem;
-  margin-top:1.3rem;
-  margin-bottom: .6rem;
-}
 
-.row{
-  flex-direction: column;
-}
-
-.all-game-boxes {
-  justify-content: center;
-}
 
 .directions {
   height:21.2rem;
   width:15rem;
-  margin-top:1rem;
-  margin-right: 2.3rem;
+  margin-top:5.4rem;
+  margin-right: 2.6rem;
+  flex-direction: column;
+  margin-left: 4rem;
 }
 
 .match-game{
@@ -334,12 +316,10 @@ margin-bottom: .2rem;
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
-  margin-top:1.6rem;
+  margin-top:1.7rem;
   margin-bottom: .5rem;
   color: rgb(79,199,254);
-  /*text-shadow: 0px 0.5px .5px rgb(57,57,57);*/
-
-}
+  }
 
 .match-game-text{
   padding-left: .5rem;
@@ -348,6 +328,35 @@ margin-bottom: .2rem;
   font-family: "Roboto";
   font-weight: 200;
   font-size: .9rem;
-  padding-bottom: .8rem;
+  padding-bottom: .7rem;
   line-height: 1.3rem;
+}
+
+ #memory_board {
+ background:#DADADA;
+ border:#999 1px solid;
+ width: 48rem;
+ height: 440px;
+ margin-top: 4rem;
+ opacity: .5;
+}
+
+#memory_board div {
+  background: #FF3399;
+  border: #000 1px solid;
+  float: left;
+  font-size: 64px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  width:6rem;
+  height:6rem;
+  background-color:rgb(57,57,57);
+  justify-content: space-around;
+  margin-top:1.8rem;
+  margin-bottom: .6rem;
+  display: flex;
+  margin-left: 1.6rem;
+
+
 }

@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 
+    <!-- __________________SCRIPTS______________-->
+    <script src="resources/scripts/lodash.min.js"></script>
+    <script src="resources/scripts/actions.js"></script>
+
   </head>
   <div class="alt-grid">
   <body>
@@ -40,53 +44,26 @@
     </div>
     <!-- _________________JUMBOTRON_________________-->
       <div class="secret container ">
-      <div class="secret-content">
+      <div class="secret-content container">
+        <div class="directions container">
+              <h1 class="match-game"> Match Game </h1>
+              <p class="match-game-rules"> rules </p>
+              <p class="match-game-text"> Click on a card to reveal the number on the other side.
+                Click on a second card to try and find a match
+                to the first. If you succeed, the pair will be
+                removed from play. If not, try again!</p>
+              <p class="match-game-rules"> how to win </p>
+              <p class="match-game-text"> You win when all pairs have been found.</p>
+            </div>
+        <div class="game container">
+          <div class="all-game-boxes" id="memory_board">
+        </div>
 
 
-        <div class="all-game-boxes container">
-          <div class="directions">
-            <h1 class="match-game"> Match Game </h1>
-            <p class="match-game-rules"> rules </p>
-            <p class="match-game-text"> Click on a card to reveal the number on the other side.
-              Click on a second card to try and find a match
-              to the first. If you succeed, the pair will be
-              removed from play. If not, try again!</p>
-            <p class="match-game-rules"> how to win </p>
-            <p class="match-game-text"> You win when all pairs have been found.</p>
-          </div>
-          <div class="row container">
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-          </div>
-          <div class="row container">
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-          </div>
-          <div class="row container">
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-          </div>
-          <div class="row container">
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-          </div>
-          <div class="row container">
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-          </div>
-          <div class="row container">
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-            <div class="game-box"></div>
-          </div>
         </div>
       </div>
     </div>
+     <script>newBoard();</script>
 
     <!-- __________________LINKS_______________-->
 
